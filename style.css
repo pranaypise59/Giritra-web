@@ -1,0 +1,55 @@
+:root{
+    --ctm-header-btn-bg: #581036;
+    --ctm-header-btn-color: #fff;
+    --cmt-light-btn-bg: #fff;
+    --cmt-light-btn-color: #000;
+    --cmt-light-btn-hover-bg: #340920;
+    --cmt-light-btn-hover-color: #fff;
+}
+.ctm-header-btn .btn{
+    background-color: var(--ctm-header-btn-bg);
+    color: var(--ctm-header-btn-color);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    color:white;
+}
+
+.slidershow{
+color: white;
+}
+
+.btn-primary{
+    background-color: var(--cmt-light-btn-bg);
+    color: var(--cmt-light-btn-color);
+}
+
+.btn-primary:hover{
+    background-color: var(--cmt-light-btn-hover-bg);
+    color: var(--cmt-light-btn-hover-color);
+}
+
+
+
+.btn-primary .btn-arow{
+    background-color: var(--cmt-light-btn-hover-bg);
+    color: var(--cmt-light-btn-hover-color);
+}
+
+.btn-primary .btn-arow:hover{
+    background-color: var(--cmt-light-btn-bg);
+    color: var(--cmt-light-btn-color);
+}
+
+.btn-primary .btn-arow svg path{
+    fill: var( --cmt-light-btn-hover-color);
+}
+
+.section-marquee .row .marquee-list li h2{
+    color: var(--ctm-header-btn-bg) !important;
+}
+
+.h1.mt-3.aos-init.aos-animate{
+    color: black;
+}
+

@@ -529,8 +529,8 @@ div[data-slider-options]{position:relative;}
    line-height:1.5;
 }
 .card .caption-secondary, .card .caption{
-  font-size: clamp(0.5rem, 0.45rem + 0.25vw, 0.75rem);
-   line-height:1.5; 
+  font-size: clamp(0.5rem, 0.45rem + 0.25vw, 1.75rem);
+  line-height:1.5;
 }
 .ctm-blog-card  .caption{
      font-size: clamp(0.75rem, 0.7rem + 0.25vw, 1rem);

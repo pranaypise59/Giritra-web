@@ -52,3 +52,24 @@ color: white;
 .h1.mt-3.aos-init.aos-animate{
     color: black;
 }
+
+.h2.aos-init.aos-animate, .h1.mt-2.aos-init.aos-animate{
+    color: var(--ctm-header-btn-bg);
+}
+.number-counter-title{
+    color: black;
+}
+.card-title > a:not(:hover), .footer-link-list > li > a:not(:hover){
+    color: var(--ctm-header-btn-bg);
+}
+.ctm-before-img:before{
+    display: none !important;
+}
+.h6.caption{
+    scale: 1.5;
+}
+
+/* color-scheme-3 isolate gradient container section-template--19045185913052__contact_text_with_icons_PFWQYC-padding */
+.color-scheme-3.isolate.gradient.section-template--19045185913052__contact_text_with_icons_PFWQYC-padding{
+    background-color: var(--ctm-header-btn-bg);
+}

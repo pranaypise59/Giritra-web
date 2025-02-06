@@ -65,11 +65,24 @@ color: white;
 .ctm-before-img:before{
     display: none !important;
 }
-.h6.caption{
-    scale: 1.5;
+.h6.caption, .caption-with-letter-spacing--medium, .caption{
+    /* scale: 1.5; */
+    font-size: 1.5rem;
+    margin-bottom: 16px;
 }
 
 /* color-scheme-3 isolate gradient container section-template--19045185913052__contact_text_with_icons_PFWQYC-padding */
 .color-scheme-3.isolate.gradient.section-template--19045185913052__contact_text_with_icons_PFWQYC-padding{
     background-color: var(--ctm-header-btn-bg);
+}
+
+.footer{
+    background-color: var(--ctm-header-btn-bg);
+}
+
+.brand__image-wrapper{
+    margin: auto;
+}
+.ctm-footer-email input{
+    background-color:rgb(72 0 14) ;
 }

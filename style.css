@@ -50,7 +50,7 @@ color: white;
 }
 
 .h1.mt-3.aos-init.aos-animate{
-    color: black;
+    color: rgb(var(--color-link-hover)) !important;
 }
 
 .h2.aos-init.aos-animate, .h1.mt-2.aos-init.aos-animate{

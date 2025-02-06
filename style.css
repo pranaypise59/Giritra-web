@@ -53,3 +53,7 @@ color: white;
     color: black;
 }
 
+.card__inner_wrapper img{
+    background-color: red;
+    mix-blend-mode: multiply;
+}

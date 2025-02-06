@@ -52,8 +52,3 @@ color: white;
 .h1.mt-3.aos-init.aos-animate{
     color: black;
 }
-
-.card__inner_wrapper img{
-    background-color: red;
-    mix-blend-mode: multiply;
-}

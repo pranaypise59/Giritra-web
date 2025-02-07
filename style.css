@@ -86,3 +86,61 @@ color: white;
 .ctm-footer-email input{
     background-color:rgb(72 0 14) ;
 }
+
+.gold-rates-wrapper {
+    font-family: var(--font-body-family);
+  }
+  
+  .gold-rates-toggle {
+    color: rgb(var(--color-foreground));
+    transition: color 0.3s ease;
+  }
+  
+  .gold-rates-toggle:hover {
+    color: rgb(var(--color-link-hover));
+  }
+  
+  .gold-rates-dropdown {
+    top: 100%;
+    right: 0;
+    width: 220px;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    background: rgb(var(--color-background));
+    border: 1px solid rgba(var(--color-foreground), 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gold-rates-wrapper:hover .gold-rates-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  .rates-title {
+    color: rgb(var(--color-foreground));
+    font-size: 1rem;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(var(--color-foreground), 0.1);
+    padding-bottom: 0.5rem;
+  }
+  
+  .rate-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  
+  .rate-name {
+    color: rgb(var(--color-foreground));
+    font-weight: 500;
+  }
+  
+  .rate-value {
+    color: rgb(var(--color-link-hover));
+    font-weight: 600;
+  }
